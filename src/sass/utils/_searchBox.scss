@@ -12,6 +12,14 @@
         -webkit-box-shadow: 0px 11px 24px -12px rgba(66, 68, 90, 0.59);
         -moz-box-shadow: 0px 11px 24px -12px rgba(66, 68, 90, 0.59);
         box-shadow: 0px 11px 24px -12px rgba(66, 68, 90, 0.59);
+        outline: none;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:focus, &:hover {
+            -webkit-box-shadow: 0px 0px 24px -5px rgba(255, 255, 255, 1);
+            -moz-box-shadow: 0px 0px 24px -5px rgba(255, 255, 255, 1);
+            box-shadow: 0px 0px 24px -5px rgba(255, 255, 255, 1);
+        }
     }
 
     &__button {
@@ -24,10 +32,12 @@
         -webkit-box-shadow: 0px 11px 24px -12px rgba(66, 68, 90, 0.59);
         -moz-box-shadow: 0px 11px 24px -12px rgba(66, 68, 90, 0.59);
         box-shadow: 0px 11px 24px -12px rgba(66, 68, 90, 0.59);
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-        &--icon {
-            color: rgba(148,187,233,1) 100%;
-            fill: rgba(148,187,233,1) 100%;
+        &:focus, &:hover {
+            -webkit-box-shadow: 0px 0px 24px -5px rgba(255, 255, 255, 1);
+            -moz-box-shadow: 0px 0px 24px -5px rgba(255, 255, 255, 1);
+            box-shadow: 0px 0px 24px -5px rgba(255, 255, 255, 1);
         }
     }
 }
