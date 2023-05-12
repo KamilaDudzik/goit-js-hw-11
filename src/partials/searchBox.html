@@ -1,4 +1,9 @@
 <form class="search-form" id="search-form">
-    <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
-    <button type="submit">Search</button>
+    <input class="search-form__input" type="text" name="searchQuery" autocomplete="off"
+        placeholder="Search images..." />
+    <button class="search-form__button" type="submit">
+        <svg class="btn-search" width="30" height="30">
+            <use href="/src/icons/search.svg"></use>
+        </svg>
+    </button>
 </form>
