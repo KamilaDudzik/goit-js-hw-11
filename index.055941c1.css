@@ -1,0 +1,2 @@
+*{box-sizing:border-box}body{height:100vh;background:radial-gradient(circle,#eeaeca 0%,#94bbe9 100%) 0 0/400% 400%;animation:gradient 20s infinite both}@keyframes gradient{0%{background-position:0%}50%{background-position:100%}to{background-position:0%}}.search-form__input{border:none;padding:20px}.search-form__button{background:red}
+/*# sourceMappingURL=index.055941c1.css.map */
